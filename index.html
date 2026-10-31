@@ -1,0 +1,2515 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#0A0A0A" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Primary Meta -->
+  <title>Perfect Photographs — Premium Photo Studio in Addis Ababa</title>
+  <meta name="description" content="Premium photography studio in Addis Ababa. Portrait, wedding, fashion editorial and commercial photography. Timeless images crafted with care." />
+  <link rel="canonical" href="https://perfectphotographs.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_ET" />
+  <meta property="og:url" content="https://perfectphotographs.com/" />
+  <meta property="og:title" content="Perfect Photographs — Premium Photo Studio in Addis Ababa" />
+  <meta property="og:description" content="Premium photography studio in Addis Ababa. Portrait, wedding, fashion editorial and commercial photography." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Perfect Photographs — Premium Photo Studio" />
+  <meta name="twitter:description" content="Premium photography studio in Addis Ababa. Portrait, wedding, fashion and commercial photography." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📷</text></svg>" />
+
+  <!-- Preload critical fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Preload hero image -->
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1600&q=80" fetchpriority="high" />
+
+  <!-- Styles -->
+  
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Perfect Photographs",
+    "description": "Premium photography studio in Addis Ababa specializing in portrait, wedding, fashion editorial and commercial photography.",
+    "url": "https://perfectphotographs.com",
+    "telephone": "+251900000000",
+    "email": "hello@perfectphotographs.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Addis Ababa",
+      "addressCountry": "ET"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "9.0320",
+      "longitude": "38.7469"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    "priceRange": "$$",
+    "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
+    "sameAs": []
+  }
+  </script>
+<style>
+/* ============================================
+   Perfect Photographs — Production Stylesheet
+   ============================================ */
+
+:root {
+  --cream: #F7F4EF;
+  --ink: #0A0A0A;
+  --charcoal: #141414;
+  --soft: #E8E4DD;
+  --accent: #C45C26;
+  --muted: #6B6660; /* Improved contrast for WCAG */
+  --white: #FFFFFF;
+  --success: #16a34a;
+  --error: #dc2626;
+  --header-h: 76px;
+  --radius: 1.2rem;
+  --radius-sm: 0.75rem;
+  --transition: 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .marquee__track { animation: none !important; }
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img { max-width: 100%; display: block; height: auto; }
+a { text-decoration: none; color: inherit; }
+
+/* Focus styles (WCAG) */
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  background: var(--ink);
+  color: white;
+  padding: 0.75rem 1.25rem;
+  z-index: 1000;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Typography */
+.font-serif { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; }
+
+.hero__title {
+  font-size: clamp(2.8rem, 9.5vw, 8rem);
+  line-height: 0.88;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+  color: white;
+}
+.hero__title .font-serif { font-weight: 400; opacity: 0.93; }
+
+.section-title {
+  font-size: clamp(2.1rem, 4.8vw, 3.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+}
+
+.page-title {
+  font-size: clamp(2.4rem, 5.8vw, 4.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  color: white;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.eyebrow--light { color: rgba(255,255,255,0.45); }
+
+/* Layout */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.4rem;
+}
+@media (min-width: 768px) {
+  .container { padding: 0 2.5rem; }
+}
+.container--narrow { max-width: 760px; }
+.text-center { text-align: center; }
+
+/* Header */
+#site-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  height: var(--header-h);
+  transition: background 0.35s ease, box-shadow 0.35s ease;
+}
+#site-header.is-scrolled {
+  background: rgba(10,10,10,0.92);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.nav-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.4rem;
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .nav-inner { padding: 0 2.5rem; }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: white;
+  font-size: 1.05rem;
+}
+.logo__text { font-weight: 600; letter-spacing: -0.02em; }
+.logo__serif {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  opacity: 0.85;
+}
+
+.nav-links {
+  display: none;
+  gap: 1.8rem;
+  font-size: 0.875rem;
+  color: rgba(255,255,255,0.7);
+}
+.nav-links a {
+  transition: color 0.2s;
+  position: relative;
+  font-weight: 450;
+}
+.nav-links a:hover,
+.nav-links a.is-active { color: white; }
+.nav-links a.is-active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px; left: 0; right: 0;
+  height: 1.5px;
+  background: white;
+}
+@media (min-width: 1024px) {
+  .nav-links { display: flex; }
+}
+
+.nav-actions { display: flex; align-items: center; gap: 0.7rem; }
+
+.nav-cta {
+  display: none;
+  padding: 0.55rem 1.2rem;
+  background: white;
+  color: var(--ink);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all var(--transition);
+}
+.nav-cta:hover { background: var(--cream); transform: translateY(-1px); }
+@media (min-width: 640px) {
+  .nav-cta { display: inline-flex; }
+}
+
+.menu-btn {
+  display: flex;
+  width: 40px; height: 40px;
+  background: none; border: none;
+  color: white; cursor: pointer;
+  align-items: center; justify-content: center;
+}
+@media (min-width: 1024px) {
+  .menu-btn { display: none; }
+}
+
+/* Mobile menu */
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: var(--ink);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6.5rem 2rem 3rem;
+  transform: translateX(100%);
+  transition: transform 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
+.mobile-menu[hidden] { display: none; }
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.mobile-nav__link {
+  display: block;
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 400;
+  padding: 0.7rem 0;
+  line-height: 1.3;
+  transition: color 0.2s;
+}
+.mobile-nav__link:hover,
+.mobile-nav__link:focus {
+  color: var(--accent);
+}
+.mobile-nav__cta {
+  display: block;
+  color: var(--accent);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  padding: 0.7rem 0;
+}
+
+.mobile-social {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.7);
+  transition: all 0.25s ease;
+}
+.social-icon:hover {
+  color: white;
+  border-color: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.08);
+  transform: translateY(-2px);
+}
+
+.footer-social {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.3rem;
+}
+.social-icon--sm {
+  width: 36px;
+  height: 36px;
+}
+.social-icon--sm svg {
+  width: 16px;
+  height: 16px;
+}
+
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.9rem 1.7rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition);
+  font-family: inherit;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn--primary { background: white; color: var(--ink); }
+.btn--primary:hover { background: var(--cream); }
+.btn--outline {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.35);
+  color: white;
+}
+.btn--outline:hover { background: rgba(255,255,255,0.1); }
+.btn--dark { background: var(--ink); color: white; }
+.btn--dark:hover { background: #1a1a1a; }
+.btn--sm { padding: 0.55rem 1.2rem; font-size: 0.82rem; }
+.btn--full { width: 100%; }
+
+/* Page sections */
+.page { display: none; }
+.page.is-active {
+  display: block;
+  animation: pageIn 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page.is-active { animation: none; }
+}
+
+/* Sections */
+.section { padding: 4.5rem 0; }
+.section--cream { background: var(--cream); }
+.section--ink { background: var(--ink); color: white; }
+.section--soft { background: var(--soft); }
+.section--tight-top { padding-top: 3rem; }
+.section--cta { padding: 5rem 0; }
+
+.page-hero {
+  background: var(--ink);
+  color: white;
+  padding: 9.5rem 0 4.5rem;
+}
+.page-lead {
+  max-width: 34rem;
+  color: rgba(255,255,255,0.7);
+  font-size: 1.1rem;
+  line-height: 1.65;
+  margin-top: 1.1rem;
+}
+
+.section-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.section-intro {
+  color: var(--muted);
+  max-width: 32rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.65;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: var(--ink);
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.hero__bg {
+  position: absolute;
+  inset: 0;
+}
+.hero__bg img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  opacity: 0.38;
+}
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(10,10,10,0.5), rgba(10,10,10,0.2), var(--ink));
+}
+.hero__content {
+  position: relative;
+  z-index: 2;
+  padding-top: 8.5rem;
+  padding-bottom: 5.5rem;
+}
+.hero__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+.hero__badge-dot {
+  width: 6px; height: 6px;
+  background: #4ade80;
+  border-radius: 50%;
+}
+.hero__lead {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.65;
+  max-width: 36rem;
+  margin-bottom: 1.5rem;
+}
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin: 1.8rem 0 2.2rem;
+}
+.hero__trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 2rem;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.02em;
+}
+
+/* Marquee */
+.marquee {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding: 0.9rem 0;
+  background: rgba(10,10,10,0.7);
+}
+.marquee__track {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 40s linear infinite;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+}
+.marquee__track span { padding-right: 2rem; }
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Quote */
+.quote {
+  max-width: 46rem;
+}
+.quote p {
+  font-size: clamp(1.3rem, 2.6vw, 1.9rem);
+  line-height: 1.45;
+  color: rgba(10,10,10,0.9);
+}
+.quote footer {
+  margin-top: 1.2rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Service cards */
+.service-cards {
+  display: grid;
+  gap: 1.3rem;
+}
+.service-card {
+  display: grid;
+  border-radius: var(--radius);
+  overflow: hidden;
+  min-height: 360px;
+}
+@media (min-width: 768px) {
+  .service-card { grid-template-columns: 1fr 1fr; }
+}
+.service-card--ink { background: var(--ink); color: white; }
+.service-card--accent { background: var(--accent); color: white; }
+.service-card--charcoal { background: var(--charcoal); color: white; }
+
+.service-card__content {
+  padding: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .service-card__content { padding: 2.6rem; }
+}
+.service-card__label {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 0.7rem;
+}
+.service-card--accent .service-card__label { color: rgba(255,255,255,0.7); }
+.service-card__title {
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  line-height: 1.15;
+}
+.service-card__text {
+  color: rgba(255,255,255,0.7);
+  max-width: 24rem;
+  line-height: 1.65;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+.service-card--accent .service-card__text { color: rgba(255,255,255,0.9); }
+.service-card__list {
+  color: rgba(255,255,255,0.65);
+  font-size: 0.92rem;
+  line-height: 1.85;
+  padding-left: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+.service-card__list--light { color: rgba(255,255,255,0.85); }
+.service-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: auto;
+}
+.service-card__meta .btn { margin-left: auto; }
+
+.service-card__media {
+  min-height: 240px;
+  overflow: hidden;
+  background: var(--soft);
+}
+.service-card__media img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s cubic-bezier(0.16,1,0.3,1);
+}
+.service-card:hover .service-card__media img { transform: scale(1.05); }
+
+.tag {
+  display: inline-flex;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.25);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.tag--light { border-color: rgba(255,255,255,0.35); }
+
+/* Stats */
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .stats-grid { grid-template-columns: repeat(4, 1fr); }
+}
+.stat__number {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+.stat__label {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5);
+}
+
+/* Portfolio */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.1rem;
+}
+@media (min-width: 640px) { .portfolio-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1024px) { .portfolio-grid { grid-template-columns: 1fr 1fr 1fr; } }
+
+.portfolio-item {
+  position: relative;
+  aspect-ratio: 3/4;
+  border-radius: 0.9rem;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: var(--soft);
+  display: block;
+  width: 100%;
+}
+.portfolio-item img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s cubic-bezier(0.16,1,0.3,1);
+}
+.portfolio-item:hover img { transform: scale(1.06); }
+.portfolio-item__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.78), transparent 55%);
+  opacity: 0;
+  transition: opacity 0.4s;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.4rem;
+  color: white;
+  text-align: left;
+}
+.portfolio-item:hover .portfolio-item__overlay,
+.portfolio-item:focus-visible .portfolio-item__overlay { opacity: 1; }
+.portfolio-item__caption strong { font-weight: 500; }
+.portfolio-item__caption span { font-size: 0.75rem; opacity: 0.7; }
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.filter-btn {
+  padding: 0.45rem 1.05rem;
+  border-radius: 999px;
+  border: 1px solid rgba(10,10,10,0.15);
+  font-size: 0.82rem;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 450;
+  font-family: inherit;
+  color: var(--ink);
+}
+.filter-btn:hover,
+.filter-btn.is-active {
+  background: var(--ink);
+  color: white;
+  border-color: var(--ink);
+}
+
+.portfolio-footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+.portfolio-footer p {
+  color: var(--muted);
+  margin-bottom: 1.1rem;
+  font-size: 0.95rem;
+}
+
+.text-link {
+  font-size: 0.88rem;
+  border-bottom: 1px solid rgba(10,10,10,0.25);
+  padding-bottom: 2px;
+  background: none;
+  border-top: none; border-left: none; border-right: none;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--ink);
+}
+.text-link:hover { border-color: var(--ink); }
+
+/* Testimonials */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.3rem;
+  margin-top: 2.2rem;
+}
+@media (min-width: 700px) {
+  .testimonial-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 1000px) {
+  .testimonial-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.testimonial-card {
+  background: white;
+  border-radius: 1.1rem;
+  padding: 1.8rem;
+  height: 100%;
+}
+.testimonial-card p {
+  font-size: 1.1rem;
+  line-height: 1.55;
+  margin-bottom: 1.3rem;
+}
+.testimonial-card cite {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95rem;
+  display: block;
+}
+.testimonial-card footer span {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* Process */
+.process-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.3rem;
+}
+@media (min-width: 600px) {
+  .process-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 1000px) {
+  .process-grid { grid-template-columns: repeat(4, 1fr); }
+}
+.process-card {
+  background: white;
+  padding: 1.6rem;
+  border-radius: 1rem;
+}
+.process-card__num {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: rgba(10,10,10,0.12);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.process-card__title {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+.process-card p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* About */
+.about-grid {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .about-grid { grid-template-columns: 1fr 1fr; }
+}
+.about-grid__media {
+  aspect-ratio: 4/5;
+  border-radius: 1.3rem;
+  overflow: hidden;
+  background: var(--soft);
+}
+.about-grid__media img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.prose p {
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: 1.1rem;
+  font-size: 0.98rem;
+}
+.prose p:last-child { margin-bottom: 0; }
+
+.values-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+@media (min-width: 600px) {
+  .values-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 1000px) {
+  .values-grid { grid-template-columns: repeat(4, 1fr); }
+}
+.value-item__num {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.value-item__title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.45rem;
+}
+.value-item p {
+  color: rgba(255,255,255,0.55);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+/* Contact */
+.contact-grid {
+  display: grid;
+  gap: 3rem;
+}
+@media (min-width: 900px) {
+  .contact-grid { grid-template-columns: 1fr 1.15fr; }
+}
+.contact-info__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.contact-details {
+  display: grid;
+  gap: 1.3rem;
+  margin-bottom: 2rem;
+}
+.contact-details dt {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+.contact-details dd {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+.contact-details a:hover { color: var(--accent); }
+
+.contact-form-wrap {
+  background: var(--ink);
+  color: white;
+  border-radius: 1.3rem;
+  padding: 2rem;
+}
+.contact-form-wrap__title {
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+.contact-form-wrap__sub {
+  color: rgba(255,255,255,0.5);
+  font-size: 0.88rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group { margin-bottom: 1.4rem; }
+.form-group label {
+  display: block;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 0.4rem;
+}
+.form-input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.22);
+  padding: 0.65rem 0;
+  color: white;
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: border-color 0.25s;
+}
+.form-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.form-input::placeholder { color: rgba(255,255,255,0.28); }
+select.form-input {
+  appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+select.form-input option {
+  background: var(--ink);
+  color: var(--cream);
+}
+textarea.form-input { resize: none; min-height: 95px; }
+
+.form-error {
+  color: #fca5a5;
+  font-size: 0.8rem;
+  margin-top: 0.35rem;
+}
+.form-error-global {
+  color: #fca5a5;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.form-success {
+  color: #86efac;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* FAQ */
+.faq { margin-top: 2.2rem; }
+.faq-item { border-bottom: 1px solid rgba(10,10,10,0.1); }
+.faq-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.15rem 0;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 1.02rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--ink);
+  font-family: inherit;
+}
+.faq-icon { font-size: 1.2rem; color: var(--muted); }
+.faq-panel {
+  padding-bottom: 1.15rem;
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+.faq-panel[hidden] { display: none; }
+
+/* CTA text */
+.cta-text {
+  color: rgba(255,255,255,0.65);
+  max-width: 28rem;
+  margin: 0 auto 1.8rem;
+  line-height: 1.65;
+  font-size: 1.05rem;
+}
+.section--cream .cta-text { color: var(--muted); }
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  justify-content: center;
+}
+
+/* Footer */
+.site-footer {
+  background: var(--ink);
+  color: white;
+  padding: 3.8rem 0 1.8rem;
+}
+.footer-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 768px) {
+  .footer-grid {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.footer-brand p {
+  color: rgba(255,255,255,0.5);
+  font-size: 0.88rem;
+  max-width: 18rem;
+  line-height: 1.6;
+  margin-top: 0.9rem;
+}
+.footer-links { display: flex; flex-wrap: wrap; gap: 2.5rem; }
+.footer-col h4 {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 0.9rem;
+}
+.footer-col a {
+  display: block;
+  font-size: 0.88rem;
+  margin-bottom: 0.45rem;
+  color: rgba(255,255,255,0.65);
+  transition: color 0.2s;
+}
+.footer-col a:hover { color: white; }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.4);
+}
+@media (min-width: 640px) {
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* WhatsApp float */
+.whatsapp-float {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 80;
+  width: 56px;
+  height: 56px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+  transition: transform 0.25s;
+}
+.whatsapp-float:hover { transform: scale(1.08); }
+
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 80;
+  width: 44px;
+  height: 44px;
+  background: var(--ink);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+.back-to-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+.back-to-top:hover { transform: translateY(-2px); }
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0,0,0,0.96);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.lightbox[hidden] { display: none; }
+.lightbox img {
+  max-width: 92vw;
+  max-height: 86vh;
+  object-fit: contain;
+  border-radius: 0.4rem;
+}
+.lightbox__close {
+  position: absolute;
+  top: 1.3rem; right: 1.3rem;
+  background: none; border: none;
+  color: white; font-size: 1.9rem;
+  cursor: pointer;
+  width: 44px; height: 44px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* Noscript */
+.noscript-msg {
+  background: var(--ink);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Live region for screen reader announcements -->
+  <div id="aria-live" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- ==================== HEADER / NAV ==================== -->
+  <header id="site-header">
+    <div class="nav-inner">
+      <a href="#/" class="logo" data-link aria-label="Perfect Photographs Home">
+        <span class="logo__text">PERFECT</span>
+        <span class="logo__serif">photographs</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#/" data-link data-page="home">Home</a>
+        <a href="#/services" data-link data-page="services">Services</a>
+        <a href="#/portfolio" data-link data-page="portfolio">Portfolio</a>
+        <a href="#/about" data-link data-page="about">About</a>
+        <a href="#/contact" data-link data-page="contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#/contact" class="nav-cta" data-link>Book a Session</a>
+        <button
+          type="button"
+          class="menu-btn"
+          id="menu-btn"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div
+    id="mobile-menu"
+    class="mobile-menu"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Mobile navigation"
+    hidden
+  >
+    <nav class="mobile-nav" aria-label="Mobile">
+      <a href="#/" data-link data-page="home" class="mobile-nav__link">Home</a>
+      <a href="#/services" data-link data-page="services" class="mobile-nav__link">Services</a>
+      <a href="#/portfolio" data-link data-page="portfolio" class="mobile-nav__link">Portfolio</a>
+      <a href="#/about" data-link data-page="about" class="mobile-nav__link">About</a>
+      <a href="#/contact" data-link data-page="contact" class="mobile-nav__link">Contact</a>
+      <a href="#/contact" class="mobile-nav__cta" data-link>Book a Session →</a>
+    </nav>
+        <div class="mobile-social">
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.43V11.3a8.27 8.27 0 004.84 1.55V9.4a4.85 4.85 0 01-1.26-.18z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+      <a href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram" class="social-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- ==================== MAIN ==================== -->
+  <main id="main-content">
+
+    <!-- ========== HOME ========== -->
+    <section id="page-home" class="page" data-page="home" hidden>
+      <!-- Hero -->
+      <div class="hero">
+        <div class="hero__bg" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1600&q=80"
+            srcset="
+              https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80 800w,
+              https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80 1200w,
+              https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1600&q=80 1600w
+            "
+            sizes="100vw"
+            width="1600"
+            height="1067"
+            alt="Professional photography studio setup with soft natural light"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <div class="hero__overlay"></div>
+        </div>
+
+        <div class="container hero__content">
+          <div class="hero__badge">
+            <span class="hero__badge-dot" aria-hidden="true"></span>
+            Accepting new bookings · Addis Ababa
+          </div>
+          <p class="hero__lead">
+            Premium photography for people, brands and the moments that matter.
+          </p>
+          <h1 class="hero__title">
+            PERFECT<br />
+            <span class="font-serif">photographs</span>
+          </h1>
+          <div class="hero__actions">
+            <a href="#/contact" class="btn btn--primary" data-link>Book Your Session</a>
+            <a href="#/portfolio" class="btn btn--outline" data-link>View Our Work</a>
+          </div>
+          <div class="hero__trust" aria-label="Key statistics">
+            <span>✓ 850+ sessions completed</span>
+            <span>✓ 12 years experience</span>
+            <span>✓ 40+ brand partners</span>
+          </div>
+        </div>
+
+        <div class="marquee" aria-hidden="true">
+          <div class="marquee__track">
+            <span>Portrait · Fashion · Wedding · Commercial · Editorial · Lifestyle · Product · Events · </span>
+            <span>Portrait · Fashion · Wedding · Commercial · Editorial · Lifestyle · Product · Events · </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quote -->
+      <div class="section section--cream">
+        <div class="container">
+          <blockquote class="quote">
+            <p class="font-serif">
+              “We don’t just take pictures. We create images that still feel true years later — honest, carefully crafted, and made with respect for the people in them.”
+            </p>
+            <footer>— The Perfect Photographs Approach</footer>
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- Services Preview -->
+      <div class="section section--cream section--tight-top">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">What we offer</p>
+              <h2 class="section-title">Our Services</h2>
+            </div>
+            <a href="#/services" class="btn btn--dark" data-link>See all services →</a>
+          </div>
+
+          <div class="service-cards">
+            <article class="service-card service-card--ink">
+              <div class="service-card__content">
+                <p class="service-card__label">01 — People</p>
+                <h3 class="service-card__title">Portrait & Personal Branding</h3>
+                <p class="service-card__text">Professional portraits that reveal presence and personality. Ideal for founders, actors, professionals and families.</p>
+                <div class="service-card__meta">
+                  <span class="tag">From 2 hours</span>
+                  <span class="tag">Studio or location</span>
+                  <a href="#/contact" class="btn btn--primary btn--sm" data-link>Inquire</a>
+                </div>
+              </div>
+              <div class="service-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=900&q=80"
+                  srcset="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=600&q=80 600w, https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=900&q=80 900w"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  width="900" height="1200"
+                  alt="Woman posing for a professional portrait in soft studio light"
+                  loading="lazy" decoding="async"
+                />
+              </div>
+            </article>
+
+            <article class="service-card service-card--accent">
+              <div class="service-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80"
+                  srcset="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=80 600w, https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80 900w"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  width="900" height="1200"
+                  alt="Couple during a wedding ceremony, documentary style"
+                  loading="lazy" decoding="async"
+                />
+              </div>
+              <div class="service-card__content">
+                <p class="service-card__label">02 — Moments</p>
+                <h3 class="service-card__title">Wedding & Events</h3>
+                <p class="service-card__text">Documentary coverage with an editorial eye. Real emotion, quiet details, and images that age beautifully.</p>
+                <div class="service-card__meta">
+                  <span class="tag tag--light">Full day available</span>
+                  <span class="tag tag--light">Second shooter</span>
+                  <a href="#/contact" class="btn btn--primary btn--sm" data-link>Inquire</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="section section--ink">
+        <div class="container">
+          <div class="stats-grid" role="list">
+            <div class="stat" role="listitem">
+              <p class="stat__number">850+</p>
+              <p class="stat__label">Sessions completed</p>
+            </div>
+            <div class="stat" role="listitem">
+              <p class="stat__number">40+</p>
+              <p class="stat__label">Brand partners</p>
+            </div>
+            <div class="stat" role="listitem">
+              <p class="stat__number">12</p>
+              <p class="stat__label">Years of craft</p>
+            </div>
+            <div class="stat" role="listitem">
+              <p class="stat__number">4.9</p>
+              <p class="stat__label">Average client rating</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Selected Work -->
+      <div class="section section--cream">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Selected work</p>
+              <h2 class="section-title">Recent Projects</h2>
+            </div>
+            <a href="#/portfolio" class="text-link" data-link>View full portfolio ↗</a>
+          </div>
+          <div class="portfolio-grid">
+            <button type="button" class="portfolio-item" data-lightbox data-src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1400&q=85" aria-label="View Portrait Series larger">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Portrait of a woman looking at the camera" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Portrait Series</strong><br /><span>Studio · 2025</span></span></span>
+            </button>
+            <button type="button" class="portfolio-item" data-lightbox data-src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1400&q=85" aria-label="View Editorial Lookbook larger">
+              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Fashion model in editorial pose on location" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Editorial Lookbook</strong><br /><span>Location · 2025</span></span></span>
+            </button>
+            <button type="button" class="portfolio-item" data-lightbox data-src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=85" aria-label="View Wedding Day larger">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Bride and groom during wedding day" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Wedding Day</strong><br /><span>Documentary · 2024</span></span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <div class="section section--soft">
+        <div class="container">
+          <p class="eyebrow">Client voices</p>
+          <h2 class="section-title">What clients say</h2>
+          <div class="testimonial-grid">
+            <blockquote class="testimonial-card">
+              <p class="font-serif">“They made us feel completely at ease. The portraits captured something we didn’t even know was there.”</p>
+              <footer>
+                <cite>Sara T.</cite>
+                <span>Personal Branding Client</span>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <p class="font-serif">“Our campaign images exceeded every expectation. Professional, creative and deeply collaborative.”</p>
+              <footer>
+                <cite>Daniel K.</cite>
+                <span>Creative Director</span>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <p class="font-serif">“The wedding coverage feels like a film of the day. Quiet, beautiful and full of real emotion.”</p>
+              <footer>
+                <cite>Hana & Yonas</cite>
+                <span>Wedding Clients</span>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <!-- Final CTA -->
+      <div class="section section--ink section--cta">
+        <div class="container text-center">
+          <p class="eyebrow eyebrow--light">Ready when you are</p>
+          <h2 class="section-title">Let’s create something<br />that lasts</h2>
+          <p class="cta-text">Tell us about your project. We respond within 24–48 hours with availability and next steps.</p>
+          <div class="cta-actions">
+            <a href="#/contact" class="btn btn--primary" data-link>Start a Project</a>
+            <a href="https://wa.me/251900000000" class="btn btn--outline" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section id="page-services" class="page" data-page="services" hidden>
+      <div class="page-hero">
+        <div class="container">
+          <p class="eyebrow eyebrow--light">What we offer</p>
+          <h1 class="page-title">Services</h1>
+          <p class="page-lead">Four focused disciplines. Clear process. Consistent quality. Every project is approached with the same attention to light, story and care.</p>
+        </div>
+      </div>
+
+      <div class="section section--cream">
+        <div class="container">
+          <div class="service-cards">
+            <!-- Portrait -->
+            <article class="service-card service-card--ink" id="service-portrait">
+              <div class="service-card__content">
+                <p class="service-card__label">01 — People</p>
+                <h2 class="service-card__title">Portrait & Personal Branding</h2>
+                <p class="service-card__text">Sessions designed to reveal presence and personality. Ideal for professionals, actors, founders, families and anyone who wants images that feel authentic and strong.</p>
+                <ul class="service-card__list">
+                  <li>Personal branding & professional headshots</li>
+                  <li>Family, couple & lifestyle sessions</li>
+                  <li>Actor & model portfolios</li>
+                  <li>Studio or natural light locations</li>
+                </ul>
+                <div class="service-card__meta">
+                  <span class="tag">2–3 hours</span>
+                  <span class="tag">Digital gallery included</span>
+                  <a href="#/contact" class="btn btn--primary btn--sm" data-link>Request details</a>
+                </div>
+              </div>
+              <div class="service-card__media">
+                <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=900&q=80" width="900" height="1200" alt="Professional portrait of a woman in soft light" loading="lazy" decoding="async" />
+              </div>
+            </article>
+
+            <!-- Wedding -->
+            <article class="service-card service-card--accent" id="service-wedding">
+              <div class="service-card__media">
+                <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80" width="900" height="1200" alt="Wedding couple during ceremony" loading="lazy" decoding="async" />
+              </div>
+              <div class="service-card__content">
+                <p class="service-card__label">02 — Moments</p>
+                <h2 class="service-card__title">Wedding & Events</h2>
+                <p class="service-card__text">Documentary-style coverage with an editorial eye. We focus on real emotion, quiet details and the atmosphere of the day so the images remain meaningful for years.</p>
+                <ul class="service-card__list service-card__list--light">
+                  <li>Full-day & multi-day coverage</li>
+                  <li>Engagement & pre-wedding sessions</li>
+                  <li>Second photographer option</li>
+                  <li>Private online gallery + print options</li>
+                </ul>
+                <div class="service-card__meta">
+                  <span class="tag tag--light">Full day</span>
+                  <span class="tag tag--light">Second shooter available</span>
+                  <a href="#/contact" class="btn btn--primary btn--sm" data-link>Request details</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Editorial -->
+            <article class="service-card service-card--charcoal" id="service-editorial">
+              <div class="service-card__content">
+                <p class="service-card__label">03 — Fashion</p>
+                <h2 class="service-card__title">Editorial & Campaign</h2>
+                <p class="service-card__text">High-fashion editorials, lookbooks and brand campaigns. We collaborate closely with stylists, models and art directors to create images that feel current and intentional.</p>
+                <ul class="service-card__list">
+                  <li>Fashion editorials & lookbooks</li>
+                  <li>Brand campaigns & social content</li>
+                  <li>Full production coordination</li>
+                  <li>Professional retouching included</li>
+                </ul>
+                <div class="service-card__meta">
+                  <span class="tag">Full production</span>
+                  <span class="tag">Retouching included</span>
+                  <a href="#/contact" class="btn btn--primary btn--sm" data-link>Request details</a>
+                </div>
+              </div>
+              <div class="service-card__media">
+                <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=900&q=80" width="900" height="1200" alt="Fashion model on runway style editorial shoot" loading="lazy" decoding="async" />
+              </div>
+            </article>
+
+            <!-- Commercial -->
+            <article class="service-card service-card--ink" id="service-commercial">
+              <div class="service-card__media">
+                <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=900&q=80" width="900" height="1200" alt="Product photography setup with clean lighting" loading="lazy" decoding="async" />
+              </div>
+              <div class="service-card__content">
+                <p class="service-card__label">04 — Business</p>
+                <h2 class="service-card__title">Commercial & Product</h2>
+                <p class="service-card__text">Clean, compelling imagery for brands and products. From lifestyle product stories to precise studio product shots ready for e-commerce and advertising.</p>
+                <ul class="service-card__list">
+                  <li>Product & still-life photography</li>
+                  <li>Lifestyle & brand storytelling</li>
+                  <li>E-commerce & catalog work</li>
+                  <li>Studio or on-location</li>
+                </ul>
+                <div class="service-card__meta">
+                  <span class="tag">Studio available</span>
+                  <span class="tag">Lifestyle options</span>
+                  <a href="#/contact" class="btn btn--primary btn--sm" data-link>Request details</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- Process -->
+      <div class="section section--soft">
+        <div class="container">
+          <p class="eyebrow">How it works</p>
+          <h2 class="section-title">A clear, calm process</h2>
+          <p class="section-intro">Every project follows a transparent flow so you always know what to expect.</p>
+          <div class="process-grid">
+            <div class="process-card">
+              <span class="process-card__num" aria-hidden="true">01</span>
+              <h3 class="process-card__title">Inquiry</h3>
+              <p>Tell us about your vision, preferred dates and needs through the form or WhatsApp.</p>
+            </div>
+            <div class="process-card">
+              <span class="process-card__num" aria-hidden="true">02</span>
+              <h3 class="process-card__title">Planning</h3>
+              <p>We refine mood, location, styling and logistics so the session itself stays focused and calm.</p>
+            </div>
+            <div class="process-card">
+              <span class="process-card__num" aria-hidden="true">03</span>
+              <h3 class="process-card__title">The Session</h3>
+              <p>A guided shoot with clear direction when needed and space for real moments.</p>
+            </div>
+            <div class="process-card">
+              <span class="process-card__num" aria-hidden="true">04</span>
+              <h3 class="process-card__title">Delivery</h3>
+              <p>Carefully edited high-resolution images delivered in a private online gallery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section section--ink section--cta">
+        <div class="container text-center">
+          <h2 class="section-title">Not sure which service fits?</h2>
+          <p class="cta-text">Tell us a bit about your project and we will recommend the best approach.</p>
+          <a href="#/contact" class="btn btn--primary" data-link>Talk to us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PORTFOLIO ========== -->
+    <section id="page-portfolio" class="page" data-page="portfolio" hidden>
+      <div class="page-hero">
+        <div class="container">
+          <p class="eyebrow eyebrow--light">Selected work</p>
+          <h1 class="page-title">Portfolio</h1>
+          <p class="page-lead">A selection of recent portrait, fashion, wedding and commercial projects. Click any image to view it larger.</p>
+        </div>
+      </div>
+
+      <div class="section section--cream">
+        <div class="container">
+          <div class="filter-bar" role="group" aria-label="Filter portfolio by category">
+            <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="filter-btn" data-filter="portrait" aria-pressed="false">Portrait</button>
+            <button type="button" class="filter-btn" data-filter="fashion" aria-pressed="false">Fashion</button>
+            <button type="button" class="filter-btn" data-filter="wedding" aria-pressed="false">Wedding</button>
+            <button type="button" class="filter-btn" data-filter="commercial" aria-pressed="false">Commercial</button>
+          </div>
+
+          <div class="portfolio-grid" id="portfolio-grid">
+            <button type="button" class="portfolio-item" data-category="portrait" data-lightbox data-src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1400&q=85" aria-label="View Portrait Series larger">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Portrait of a woman" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Portrait Series</strong><br /><span>Studio · 2025</span></span></span>
+            </button>
+            <button type="button" class="portfolio-item" data-category="fashion" data-lightbox data-src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1400&q=85" aria-label="View Editorial Lookbook larger">
+              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Fashion editorial model" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Editorial Lookbook</strong><br /><span>2025</span></span></span>
+            </button>
+            <button type="button" class="portfolio-item" data-category="wedding" data-lightbox data-src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=85" aria-label="View Wedding Day larger">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Wedding day moment" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Wedding Day</strong><br /><span>2024</span></span></span>
+            </button>
+            <button type="button" class="portfolio-item" data-category="commercial" data-lightbox data-src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=85" aria-label="View Brand Campaign larger">
+              <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Brand campaign product shot" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Brand Campaign</strong><br /><span>2025</span></span></span>
+            </button>
+            <button type="button" class="portfolio-item" data-category="portrait" data-lightbox data-src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1400&q=85" aria-label="View Personal Branding larger">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Male portrait for personal branding" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Personal Branding</strong><br /><span>2025</span></span></span>
+            </button>
+            <button type="button" class="portfolio-item" data-category="fashion" data-lightbox data-src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1400&q=85" aria-label="View Street Style larger">
+              <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Street style fashion photography" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Street Style</strong><br /><span>2024</span></span></span>
+            </button>
+            <button type="button" class="portfolio-item" data-category="wedding" data-lightbox data-src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1400&q=85" aria-label="View Wedding Details larger">
+              <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Wedding details and atmosphere" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Wedding Details</strong><br /><span>2025</span></span></span>
+            </button>
+            <button type="button" class="portfolio-item" data-category="commercial" data-lightbox data-src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=1400&q=85" aria-label="View Product Story larger">
+              <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Product photography story" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Product Story</strong><br /><span>2024</span></span></span>
+            </button>
+            <button type="button" class="portfolio-item" data-category="portrait" data-lightbox data-src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1400&q=85" aria-label="View Portrait Study larger">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80" width="800" height="1067" alt="Portrait study of a young woman" loading="lazy" decoding="async" />
+              <span class="portfolio-item__overlay"><span class="portfolio-item__caption"><strong>Portrait Study</strong><br /><span>2025</span></span></span>
+            </button>
+          </div>
+
+          <div class="portfolio-footer">
+            <p>Looking for a specific style or more images from a category?</p>
+            <a href="#/contact" class="btn btn--dark" data-link>Request full portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="page-about" class="page" data-page="about" hidden>
+      <div class="page-hero">
+        <div class="container">
+          <p class="eyebrow eyebrow--light">The studio</p>
+          <h1 class="page-title">About us</h1>
+          <p class="page-lead">Built on light, patience and care. A professional photography studio focused on creating images that remain true over time.</p>
+        </div>
+      </div>
+
+      <div class="section section--cream">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-grid__text">
+              <p class="eyebrow">Our story</p>
+              <h2 class="section-title">Built on light,<br />patience & care</h2>
+              <div class="prose">
+                <p>Perfect Photographs began with a simple belief: that a great photograph is never only about the camera. It is about presence, trust and the quiet decision to truly see.</p>
+                <p>Today we work with individuals, families, designers, brands and agencies across Ethiopia and beyond. Our approach remains the same — deliberate, collaborative and focused on creating images that still feel true years later.</p>
+                <p>We believe the best photographs happen when people feel respected and at ease. That is the environment we create on every set and in every session.</p>
+              </div>
+            </div>
+            <div class="about-grid__media">
+              <img
+                src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=900&q=80"
+                width="900" height="1125"
+                alt="Photographer working in a natural light studio"
+                loading="lazy" decoding="async"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section section--ink">
+        <div class="container">
+          <p class="eyebrow eyebrow--light">What we stand for</p>
+          <h2 class="section-title">Our values</h2>
+          <div class="values-grid">
+            <div class="value-item">
+              <p class="value-item__num" aria-hidden="true">I.</p>
+              <h3 class="value-item__title">Authenticity</h3>
+              <p>We prioritize real expression over forced poses. The goal is images that feel honest.</p>
+            </div>
+            <div class="value-item">
+              <p class="value-item__num" aria-hidden="true">II.</p>
+              <h3 class="value-item__title">Craft</h3>
+              <p>Technical excellence exists in service of the story, never as an end in itself.</p>
+            </div>
+            <div class="value-item">
+              <p class="value-item__num" aria-hidden="true">III.</p>
+              <h3 class="value-item__title">Respect</h3>
+              <p>A calm, professional and safe environment for every client and collaborator.</p>
+            </div>
+            <div class="value-item">
+              <p class="value-item__num" aria-hidden="true">IV.</p>
+              <h3 class="value-item__title">Timelessness</h3>
+              <p>We aim for images designed to age with grace rather than chase temporary trends.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section section--cream section--cta">
+        <div class="container text-center">
+          <h2 class="section-title">Let’s work together</h2>
+          <p class="cta-text">Whether you have a clear brief or just an idea, we would be happy to hear from you.</p>
+          <a href="#/contact" class="btn btn--dark" data-link>Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="page-contact" class="page" data-page="contact" hidden>
+      <div class="page-hero">
+        <div class="container">
+          <p class="eyebrow eyebrow--light">Get in touch</p>
+          <h1 class="page-title">Contact</h1>
+          <p class="page-lead">Questions, bookings or collaborations. Send a message and we will respond within 24–48 hours with availability and next steps.</p>
+        </div>
+      </div>
+
+      <div class="section section--cream">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h2 class="contact-info__title">Studio details</h2>
+              <dl class="contact-details">
+                <div>
+                  <dt>Address</dt>
+                  <dd>Addis Ababa, Ethiopia</dd>
+                </div>
+                <div>
+                  <dt>Email</dt>
+                  <dd><a href="mailto:hello@perfectphotographs.com">hello@perfectphotographs.com</a></dd>
+                </div>
+                <div>
+                  <dt>Phone / WhatsApp</dt>
+                  <dd><a href="https://wa.me/251900000000">+251 900 000 000</a></dd>
+                </div>
+                <div>
+                  <dt>Hours</dt>
+                  <dd>Mon – Sat · 9:00 – 18:00</dd>
+                </div>
+              </dl>
+              <a href="https://wa.me/251900000000" class="btn btn--dark" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
+            </div>
+
+            <div class="contact-form-wrap">
+              <h2 class="contact-form-wrap__title">Send a message</h2>
+              <p class="contact-form-wrap__sub">We reply within 1–2 business days.</p>
+
+              <!-- 
+                Replace the action URL with your real Formspree / Getform / Netlify Forms endpoint.
+                Example: https://formspree.io/f/your-form-id
+              -->
+              <form
+                id="contact-form"
+                class="contact-form"
+                action="https://formspree.io/f/YOUR_FORM_ID"
+                method="POST"
+                novalidate
+              >
+                <!-- Honeypot -->
+                <div class="hp-field" aria-hidden="true">
+                  <label for="website">Website</label>
+                  <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+                </div>
+
+                <div class="form-group">
+                  <label for="name">Your Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="Full name" required autocomplete="name" />
+                  <p class="form-error" id="name-error" hidden></p>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email <span aria-hidden="true">*</span></label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="you@email.com" required autocomplete="email" />
+                  <p class="form-error" id="email-error" hidden></p>
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone (optional)</label>
+                  <input type="tel" id="phone" name="phone" class="form-input" placeholder="+251 ..." autocomplete="tel" />
+                </div>
+
+                <div class="form-group">
+                  <label for="service">Service Interest</label>
+                  <select id="service" name="service" class="form-input">
+                    <option value="">Select a service</option>
+                    <option value="Portrait & Personal Branding">Portrait & Personal Branding</option>
+                    <option value="Wedding & Events">Wedding & Events</option>
+                    <option value="Editorial & Fashion">Editorial & Fashion</option>
+                    <option value="Commercial & Product">Commercial & Product</option>
+                    <option value="Other / Collaboration">Other / Collaboration</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="timeframe">Preferred timeframe (optional)</label>
+                  <input type="text" id="timeframe" name="timeframe" class="form-input" placeholder="e.g. next month, specific date..." />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" class="form-input" rows="4" placeholder="Tell us about your project, vision or any questions..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn--primary btn--full" id="submit-btn">
+                  <span class="btn-text">Send Message</span>
+                  <span class="btn-loading" hidden>Sending…</span>
+                </button>
+
+                <p class="form-success" id="form-success" role="status" hidden>
+                  Thank you. Your message has been received. We will be in touch soon.
+                </p>
+                <p class="form-error-global" id="form-error" role="alert" hidden>
+                  Something went wrong. Please try again or message us on WhatsApp.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div class="section section--soft">
+        <div class="container container--narrow">
+          <div class="text-center">
+            <p class="eyebrow">FAQ</p>
+            <h2 class="section-title">Common questions</h2>
+          </div>
+          <div class="faq" id="faq">
+            <div class="faq-item">
+              <h3>
+                <button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-1" id="faq-btn-1">
+                  <span>How far in advance should I book?</span>
+                  <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-1" class="faq-panel" role="region" aria-labelledby="faq-btn-1" hidden>
+                <p>For portraits and smaller sessions we recommend 2–4 weeks. Weddings and major campaigns are best booked 2–6 months ahead, especially during peak seasons.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <h3>
+                <button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-2" id="faq-btn-2">
+                  <span>Do you travel for shoots?</span>
+                  <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-2" class="faq-panel" role="region" aria-labelledby="faq-btn-2" hidden>
+                <p>Yes. We regularly shoot on location within Addis Ababa and travel across Ethiopia and internationally for selected projects. Travel fees are discussed based on the destination.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <h3>
+                <button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-3" id="faq-btn-3">
+                  <span>What is included in a typical package?</span>
+                  <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-3" class="faq-panel" role="region" aria-labelledby="faq-btn-3" hidden>
+                <p>Most packages include the session time, professional editing, high-resolution digital files, and a private online gallery. Print packages and albums can be added.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <h3>
+                <button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-4" id="faq-btn-4">
+                  <span>How long until I receive my photos?</span>
+                  <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-4" class="faq-panel" role="region" aria-labelledby="faq-btn-4" hidden>
+                <p>Portrait and commercial sessions are typically delivered within 10–14 days. Wedding galleries arrive within 4–6 weeks. Rush delivery is available on request.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <h3>
+                <button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-5" id="faq-btn-5">
+                  <span>Can I bring my own stylist or makeup artist?</span>
+                  <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-5" class="faq-panel" role="region" aria-labelledby="faq-btn-5" hidden>
+                <p>Absolutely. We collaborate regularly with trusted stylists and makeup artists and are happy to work with your preferred team or recommend trusted professionals.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <h3>
+                <button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-6" id="faq-btn-6">
+                  <span>How does payment work?</span>
+                  <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-6" class="faq-panel" role="region" aria-labelledby="faq-btn-6" hidden>
+                <p>A deposit is required to reserve the date. The balance is due before or on the day of the session. Flexible arrangements can be discussed for larger projects.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 404 FALLBACK ========== -->
+    <section id="page-404" class="page" data-page="404" hidden>
+      <div class="page-hero">
+        <div class="container text-center">
+          <h1 class="page-title">Page not found</h1>
+          <p class="page-lead">The page you requested does not exist.</p>
+          <a href="#/" class="btn btn--primary" data-link>Back to Home</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#/" class="logo" data-link aria-label="Perfect Photographs Home">
+            <span class="logo__text">PERFECT</span>
+            <span class="logo__serif">photographs</span>
+          </a>
+          <p>Premium photography studio creating timeless images for people, brands and the moments that matter.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Navigate</h4>
+            <a href="#/services" data-link>Services</a>
+            <a href="#/portfolio" data-link>Portfolio</a>
+            <a href="#/about" data-link>About</a>
+            <a href="#/contact" data-link>Contact</a>
+          </div>
+                    <div class="footer-col">
+            <h4>Connect</h4>
+            <div class="footer-social">
+              <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-icon social-icon--sm">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.43V11.3a8.27 8.27 0 004.84 1.55V9.4a4.85 4.85 0 01-1.26-.18z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon social-icon--sm">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon social-icon--sm">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram" class="social-icon social-icon--sm">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Perfect Photographs. All rights reserved.</p>
+        <p>Designed with care · Addis Ababa</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a
+    href="https://wa.me/251900000000"
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with us on WhatsApp"
+  >
+    <svg viewBox="0 0 24 24" aria-hidden="true" width="28" height="28">
+      <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.85 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- Back to top -->
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top" hidden>
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- Lightbox -->
+  <div
+    id="lightbox"
+    class="lightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Image preview"
+    hidden
+  >
+    <button type="button" class="lightbox__close" id="lightbox-close" aria-label="Close image preview">×</button>
+    <img id="lightbox-img" src="" alt="" />
+  </div>
+
+  <!-- Noscript fallback -->
+  <noscript>
+    <div class="noscript-msg">
+      <p>This website requires JavaScript for full navigation and interactive features. Please enable JavaScript or contact us directly at hello@perfectphotographs.com.</p>
+    </div>
+  </noscript>
+
+  
+<script>
+/**
+ * Perfect Photographs — Production Script
+ * Hash-based router + accessibility + interactions
+ */
+
+(function () {
+  'use strict';
+
+  // ---------- Helpers ----------
+  const $ = (sel, ctx = document) => ctx.querySelector(sel);
+  const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
+
+  const liveRegion = $('#aria-live');
+  function announce(msg) {
+    if (liveRegion) {
+      liveRegion.textContent = '';
+      setTimeout(() => { liveRegion.textContent = msg; }, 50);
+    }
+  }
+
+  // ---------- Page metadata ----------
+  const PAGE_META = {
+    home: {
+      title: 'Perfect Photographs — Premium Photo Studio in Addis Ababa',
+      description: 'Premium photography studio in Addis Ababa. Portrait, wedding, fashion editorial and commercial photography. Timeless images crafted with care.'
+    },
+    services: {
+      title: 'Photography Services | Perfect Photographs Addis Ababa',
+      description: 'Portrait, wedding, fashion editorial and commercial photography services in Addis Ababa.'
+    },
+    portfolio: {
+      title: 'Portfolio | Perfect Photographs',
+      description: 'Selected portrait, fashion, wedding and commercial photography by Perfect Photographs.'
+    },
+    about: {
+      title: 'About the Studio | Perfect Photographs',
+      description: 'The story, values and approach behind Perfect Photographs studio in Addis Ababa.'
+    },
+    contact: {
+      title: 'Contact & Booking | Perfect Photographs',
+      description: 'Book a photography session or get in touch with Perfect Photographs in Addis Ababa.'
+    },
+    404: {
+      title: 'Page Not Found | Perfect Photographs',
+      description: 'The page you requested does not exist.'
+    }
+  };
+
+  // ---------- Router ----------
+  function getRoute() {
+    const hash = window.location.hash.slice(1) || '/';
+    const [path, query] = hash.split('?');
+    const page = path.replace(/^\//, '') || 'home';
+    const params = new URLSearchParams(query || '');
+    return { page, params, path: '/' + (page === 'home' ? '' : page) };
+  }
+
+  function navigate(page, replace = false) {
+    const path = page === 'home' ? '#/' : `#/${page}`;
+    if (replace) {
+      history.replaceState(null, '', path);
+    } else {
+      history.pushState(null, '', path);
+    }
+    render(page);
+  }
+
+  function render(page) {
+    // Hide all pages
+    $$('.page').forEach(p => {
+      p.classList.remove('is-active');
+      p.hidden = true;
+    });
+
+    // Show target or 404
+    let target = $(`#page-${page}`);
+    if (!target) {
+      page = '404';
+      target = $('#page-404');
+    }
+
+    target.hidden = false;
+    // Force reflow for animation
+    void target.offsetWidth;
+    target.classList.add('is-active');
+
+    // Update nav active state
+    $$('.nav-links a, .mobile-menu a').forEach(a => {
+      const p = a.getAttribute('data-page');
+      a.classList.toggle('is-active', p === page);
+    });
+
+    // Update document title & meta
+    const meta = PAGE_META[page] || PAGE_META.home;
+    document.title = meta.title;
+    const desc = $('meta[name="description"]');
+    if (desc) desc.setAttribute('content', meta.description);
+
+    // Announce for screen readers
+    announce(`Navigated to ${page === 'home' ? 'Home' : page} page`);
+
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+
+    // Close mobile menu if open
+    closeMobileMenu();
+  }
+
+  function initRouter() {
+    // Handle initial load
+    const { page } = getRoute();
+    render(page);
+
+    // Handle hash changes (back/forward + direct links)
+    window.addEventListener('hashchange', () => {
+      const { page } = getRoute();
+      render(page);
+    });
+
+    // Intercept internal links
+    document.addEventListener('click', (e) => {
+      const link = e.target.closest('[data-link]');
+      if (!link) return;
+      const href = link.getAttribute('href');
+      if (!href || !href.startsWith('#/')) return;
+      e.preventDefault();
+      const page = href === '#/' ? 'home' : href.replace('#/', '');
+      navigate(page);
+    });
+  }
+
+  // ---------- Mobile Menu ----------
+  const menuBtn = $('#menu-btn');
+  const mobileMenu = $('#mobile-menu');
+  let lastFocused = null;
+
+  function openMobileMenu() {
+    lastFocused = document.activeElement;
+    mobileMenu.hidden = false;
+    // Force reflow
+    void mobileMenu.offsetWidth;
+    mobileMenu.classList.add('is-open');
+    menuBtn.setAttribute('aria-expanded', 'true');
+    menuBtn.setAttribute('aria-label', 'Close menu');
+    // Focus first link
+    const firstLink = mobileMenu.querySelector('a');
+    if (firstLink) firstLink.focus();
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMobileMenu() {
+    if (!mobileMenu.classList.contains('is-open')) return;
+    mobileMenu.classList.remove('is-open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    menuBtn.setAttribute('aria-label', 'Open menu');
+    document.body.style.overflow = '';
+    setTimeout(() => {
+      mobileMenu.hidden = true;
+      if (lastFocused) lastFocused.focus();
+    }, 400);
+  }
+
+  function initMobileMenu() {
+    if (!menuBtn || !mobileMenu) return;
+
+    menuBtn.addEventListener('click', () => {
+      const isOpen = menuBtn.getAttribute('aria-expanded') === 'true';
+      isOpen ? closeMobileMenu() : openMobileMenu();
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && menuBtn.getAttribute('aria-expanded') === 'true') {
+        closeMobileMenu();
+      }
+    });
+
+    // Simple focus trap
+    mobileMenu.addEventListener('keydown', (e) => {
+      if (e.key !== 'Tab') return;
+      const focusable = $$('a, button', mobileMenu);
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+  }
+
+  // ---------- Lightbox ----------
+  const lightbox = $('#lightbox');
+  const lightboxImg = $('#lightbox-img');
+  const lightboxClose = $('#lightbox-close');
+  let lightboxTrigger = null;
+
+  function openLightbox(src, alt, trigger) {
+    lightboxTrigger = trigger;
+    lightboxImg.src = src;
+    lightboxImg.alt = alt || '';
+    lightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+    lightboxClose.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+    if (lightboxTrigger) lightboxTrigger.focus();
+  }
+
+  function initLightbox() {
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-lightbox]');
+      if (!btn) return;
+      const src = btn.dataset.src || btn.querySelector('img')?.src;
+      const alt = btn.querySelector('img')?.alt || '';
+      if (src) openLightbox(src, alt, btn);
+    });
+
+    lightboxClose?.addEventListener('click', closeLightbox);
+    lightbox?.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !lightbox.hidden) closeLightbox();
+    });
+  }
+
+  // ---------- Portfolio Filter ----------
+  function initPortfolioFilter() {
+    const buttons = $$('.filter-btn');
+    const items = $$('#portfolio-grid .portfolio-item');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+
+        buttons.forEach(b => {
+          b.classList.toggle('is-active', b === btn);
+          b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+        });
+
+        items.forEach(item => {
+          const cat = item.dataset.category;
+          const show = filter === 'all' || cat === filter;
+          item.style.display = show ? '' : 'none';
+        });
+
+        // Update hash for shareability
+        const base = '#/portfolio';
+        const newHash = filter === 'all' ? base : `${base}?filter=${filter}`;
+        history.replaceState(null, '', newHash);
+      });
+    });
+
+    // Apply filter from URL on load
+    const { page, params } = getRoute();
+    if (page === 'portfolio' && params.get('filter')) {
+      const filter = params.get('filter');
+      const btn = $(`.filter-btn[data-filter="${filter}"]`);
+      if (btn) btn.click();
+    }
+  }
+
+  // ---------- FAQ ----------
+  function initFAQ() {
+    $$('.faq-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        const panelId = btn.getAttribute('aria-controls');
+        const panel = document.getElementById(panelId);
+
+        // Close others
+        $$('.faq-btn').forEach(b => {
+          if (b !== btn) {
+            b.setAttribute('aria-expanded', 'false');
+            const p = document.getElementById(b.getAttribute('aria-controls'));
+            if (p) p.hidden = true;
+            b.querySelector('.faq-icon').textContent = '+';
+          }
+        });
+
+        btn.setAttribute('aria-expanded', String(!expanded));
+        if (panel) panel.hidden = expanded;
+        btn.querySelector('.faq-icon').textContent = expanded ? '+' : '−';
+      });
+    });
+  }
+
+  // ---------- Contact Form ----------
+  function initForm() {
+    const form = $('#contact-form');
+    if (!form) return;
+
+    const submitBtn = $('#submit-btn');
+    const btnText = submitBtn?.querySelector('.btn-text');
+    const btnLoading = submitBtn?.querySelector('.btn-loading');
+    const successEl = $('#form-success');
+    const errorEl = $('#form-error');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Reset messages
+      successEl.hidden = true;
+      errorEl.hidden = true;
+      $$('.form-error').forEach(el => { el.hidden = true; el.textContent = ''; });
+
+      // Client-side validation
+      let valid = true;
+      const name = form.name;
+      const email = form.email;
+
+      if (!name.value.trim()) {
+        showFieldError('name', 'Please enter your name.');
+        valid = false;
+      }
+      if (!email.value.trim()) {
+        showFieldError('email', 'Please enter your email.');
+        valid = false;
+      } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
+        showFieldError('email', 'Please enter a valid email address.');
+        valid = false;
+      }
+
+      // Honeypot check
+      if (form.website && form.website.value) {
+        // Silent fail for bots
+        return;
+      }
+
+      if (!valid) return;
+
+      // Loading state
+      submitBtn.disabled = true;
+      if (btnText) btnText.hidden = true;
+      if (btnLoading) btnLoading.hidden = false;
+
+      try {
+        // If using Formspree / Getform, the form will POST naturally.
+        // For demo / file:// we simulate success.
+        const action = form.getAttribute('action') || '';
+        if (action.includes('YOUR_FORM_ID') || action.includes('formspree.io/f/YOUR')) {
+          // Placeholder endpoint — simulate success
+          await new Promise(r => setTimeout(r, 900));
+          successEl.hidden = false;
+          form.reset();
+          announce('Message sent successfully');
+        } else {
+          const res = await fetch(action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { Accept: 'application/json' }
+          });
+          if (res.ok) {
+            successEl.hidden = false;
+            form.reset();
+            announce('Message sent successfully');
+          } else {
+            throw new Error('Network response was not ok');
+          }
+        }
+      } catch (err) {
+        errorEl.hidden = false;
+        announce('There was an error sending your message');
+      } finally {
+        submitBtn.disabled = false;
+        if (btnText) btnText.hidden = false;
+        if (btnLoading) btnLoading.hidden = true;
+      }
+    });
+
+    function showFieldError(id, msg) {
+      const el = document.getElementById(`${id}-error`);
+      if (el) {
+        el.textContent = msg;
+        el.hidden = false;
+      }
+    }
+  }
+
+  // ---------- Header scroll ----------
+  function initHeaderScroll() {
+    const header = $('#site-header');
+    if (!header) return;
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('is-scrolled', window.scrollY > 40);
+    }, { passive: true });
+  }
+
+  // ---------- Back to top ----------
+  function initBackToTop() {
+    const btn = $('#back-to-top');
+    if (!btn) return;
+
+    window.addEventListener('scroll', () => {
+      btn.classList.toggle('is-visible', window.scrollY > 600);
+      btn.hidden = window.scrollY <= 600;
+    }, { passive: true });
+
+    btn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+      });
+    });
+  }
+
+  // ---------- Year ----------
+  function initYear() {
+    const el = $('#year');
+    if (el) el.textContent = new Date().getFullYear();
+  }
+
+  // ---------- Init ----------
+  document.addEventListener('DOMContentLoaded', () => {
+    initRouter();
+    initMobileMenu();
+    initLightbox();
+    initPortfolioFilter();
+    initFAQ();
+    initForm();
+    initHeaderScroll();
+    initBackToTop();
+    initYear();
+  });
+})();
+
+</script>
+</body>
+</html>
